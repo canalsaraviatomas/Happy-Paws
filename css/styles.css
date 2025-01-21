@@ -1,36 +1,83 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Poppins";
   margin: 0;
   padding: 0;
 }
-header {
-  background-color: #f8b400;
-  padding: 1rem;
-  text-align: center;
-  color: white;
-}
-nav {
-  background-color: #333;
-  color: white;
-  padding: 0.5rem;
-  text-align: center;
-}
-nav a {
-  color: white;
-  margin: 0 1rem;
-  text-decoration: none;
-}
-nav a:hover {
-  text-decoration: underline;
-}
 main {
   padding: 2rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+header {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+nav {
+  width: 60%;
+}
+nav a {
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+nav a:hover {
+  color: #ffb948;
+}
+.favicon {
+  width: 2.8rem;
+}
+h1 {
+  color: #49241f;
+  font-size: 3.8rem;
+  margin-bottom: 30px;
+}
+.description {
+  color: #82817f;
+}
+.side-image {
+  display: flex;
+  justify-content: center;
+  gap: 2.7rem;
+}
+.pet-image-main {
+  width: 300px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.pet-image-main:hover {
+  box-shadow: 3px 3px 20px #ffb948;
+}
+.container-button-adopt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+#button-adopt {
+  text-decoration: none;
+  padding: 0.6rem;
+  border-radius: 20px;
+  background-color: #f4aa34;
+  color: white;
+}
+#button-adopt:hover {
+  font-size: 1.1rem;
+  text-shadow: 1px 1px #82817f;
+  box-shadow: 2px 2px 2px #82817f;
 }
 footer {
   background-color: #333;
   color: white;
   text-align: center;
-  padding: 1rem;
   position: absolute;
   bottom: 0;
   width: 100%;
