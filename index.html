@@ -4,12 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Happy Paws</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header>
-      <h1>Happy Paws</h1>
+      <h1>Welcome to Happy Paws</h1>
+      <p>Your trusted veterinary and adoption center</p>
     </header>
-    <main></main>
-    <footer></footer>
+    <div id="nav-container"></div>
+    <main>
+      <h2>Home</h2>
+      <p>
+        Welcome to Happy Paws! We are here to care for your pets and help you
+        find your new furry friends.
+      </p>
+    </main>
+    <footer>
+      <p>&copy; 2025 Happy Paws. All Rights Reserved.</p>
+    </footer>
   </body>
+  <script type="module">
+    import { loadNav } from "./components/nav.js";
+    document.getElementById("nav-container").innerHTML = loadNav();
+  </script>
 </html>
