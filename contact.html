@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Paws</title>
+    <link rel="icon" href="./assets/images/favicon.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script type="module">
+      import { loadNav, loadFooter } from "./js/components.js";
+      document.getElementById("nav-container").innerHTML = loadNav();
+      document.getElementById("footer-container").innerHTML = loadFooter();
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav id="nav-container"></nav>
+    </header>
+    <main>
+      <section>
+        <h1>Contact</h1>
+        <p>
+          If you would like to donate to our cause or report a stray animal,
+          then please contact our 24/7 help center (+88 0123 456 789)
+        </p>
+      </section>
+      <section>
+        <div>
+          <form>
+            <input type="text" placeholder="First Name" />
+            <input type="text" placeholder="Last Name" />
+            <input type="email" placeholder="Email Address" />
+            <input type="text" placeholder="Subject" />
+            <textarea placeholder="Your Message"></textarea>
+            <input type="submit" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer id="footer-container"></footer>
+  </body>
+</html>

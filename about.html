@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Paws</title>
+    <link rel="icon" href="./assets/images/favicon.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script type="module">
+      import { loadNav, loadFooter } from "./js/components.js";
+      document.getElementById("nav-container").innerHTML = loadNav();
+      document.getElementById("footer-container").innerHTML = loadFooter();
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav id="nav-container"></nav>
+    </header>
+    <main>
+      <section>
+        <h1>About Us</h1>
+        <p>
+          At Happy Paws, we provide compassionate veterinary care and connect
+          you with loving pets for adoption. Our mission is to create a better
+          world for animals in need.
+        </p>
+      </section>
+      <section>
+        <img src="" alt="pet" />
+        <h2>Rescue, Foster And Adopt</h2>
+        <p>
+          Don’t buy pets when there are so many homeless animals on the streets.
+          Adopt rescued animals from our shelters and make a change in the lives
+          of animals in your area.
+        </p>
+        <a href="./contact.html">Contact Us</a>
+      </section>
+    </main>
+    <footer id="footer-container"></footer>
+  </body>
+</html>

@@ -4,27 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Happy Paws</title>
+    <link rel="icon" href="./assets/images/favicon.png" />
     <link rel="stylesheet" href="css/styles.css" />
+    <script type="module">
+      import { loadNav, loadFooter } from "./js/components.js";
+      document.getElementById("nav-container").innerHTML = loadNav();
+      document.getElementById("footer-container").innerHTML = loadFooter();
+    </script>
   </head>
   <body>
     <header>
-      <h1>Welcome to Happy Paws</h1>
-      <p>Your trusted veterinary and adoption center</p>
+      <nav id="nav-container"></nav>
     </header>
-    <div id="nav-container"></div>
     <main>
-      <h2>Home</h2>
-      <p>
-        Welcome to Happy Paws! We are here to care for your pets and help you
-        find your new furry friends.
-      </p>
+      <section>
+        <h1>Welcome to Happy Paws</h1>
+        <p>
+          Life is easier with a furry best friend by your side. Find your new
+          pet from our animal shelters.
+        </p>
+        <img src="" alt="pet" />
+        <a href="./adopt.html">Adopt now!</a>
+      </section>
     </main>
-    <footer>
-      <p>&copy; 2025 Happy Paws. All Rights Reserved.</p>
-    </footer>
+    <footer id="footer-container"></footer>
   </body>
-  <script type="module">
-    import { loadNav } from "./components/nav.js";
-    document.getElementById("nav-container").innerHTML = loadNav();
-  </script>
 </html>
