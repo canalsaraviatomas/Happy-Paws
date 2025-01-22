@@ -8,12 +8,11 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/adopt.css" />
     <script type="module">
-      import { loadNav, loadFooter, loadPet } from "./js/components.js";
+      import { loadNav, loadFooter } from "./js/components.js";
+      import { loadPetsIntoDOM } from "./js/main.js";
       document.getElementById("nav-container").innerHTML = loadNav();
       document.getElementById("footer-container").innerHTML = loadFooter();
-      document.querySelectorAll(".pet").forEach((pet) => {
-        pet.innerHTML = loadPet();
-      });
+      loadPetsIntoDOM();
     </script>
   </head>
   <body>
