@@ -4,20 +4,27 @@ form {
   gap: 1rem;
   max-width: 600px;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 1.4rem;
   border: 1px solid #ccc;
   border-radius: 8px;
   background-color: #f9f9f9;
 }
 
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 100%;
+input {
   padding: 0.5rem;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 1rem;
+}
+
+#info-name {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+#info-name input {
+  flex-grow: 1;
 }
 
 input[type="submit"] {
@@ -43,4 +50,16 @@ textarea {
   text-align: center;
   margin-bottom: 2rem;
   font-size: 1.2rem;
+}
+
+#section-form {
+  margin-top: 3.8rem;
+  margin-bottom: 1rem;
+}
+
+#cat-grabbing-web {
+  max-width: 300px;
+  position: absolute;
+  top: 4rem;
+  right: 17rem;
 }
