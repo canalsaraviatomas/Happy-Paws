@@ -6,6 +6,7 @@
     <title>Happy Paws</title>
     <link rel="icon" href="./assets/images/favicon.png" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="./css/about.css" />
     <script type="module">
       import { loadNav, loadFooter } from "./js/components.js";
       document.getElementById("nav-container").innerHTML = loadNav();
@@ -21,19 +22,29 @@
         <h1>About Us</h1>
         <p class="description">
           At Happy Paws, we provide compassionate veterinary care and connect
-          you with loving pets for adoption. Our mission is to create a better
-          world for animals in need.
+          you with loving pets for adoption. <br />
+          Our mission is to create a better world for animals in need.
         </p>
       </section>
-      <section>
-        <img src="" alt="pet" />
-        <h2>Rescue, Foster And Adopt</h2>
-        <p>
-          Don’t buy pets when there are so many homeless animals on the streets.
-          Adopt rescued animals from our shelters and make a change in the lives
-          of animals in your area.
-        </p>
-        <a href="./contact.html">Contact Us</a>
+      <section class="information-section">
+        <img
+          src="./assets/images/girl-with-pet.jpg"
+          alt="girl with pet"
+          class="girl-pet"
+        />
+        <div>
+          <h2>
+            Rescue, Foster <br />
+            And Adopt
+          </h2>
+          <p>
+            Don’t buy pets when there are so many homeless <br />
+            animals on the streets. Adopt rescued animals from our <br />
+            shelters and make a change in the lives of animals in <br />
+            your area.
+          </p>
+          <a href="./contact.html" id="button-adopt">Contact Us</a>
+        </div>
       </section>
     </main>
     <footer id="footer-container"></footer>

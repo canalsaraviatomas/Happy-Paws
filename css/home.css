@@ -1,0 +1,20 @@
+.container-header {
+  display: flex;
+  justify-content: center;
+  gap: 2.7rem;
+}
+.pet-image {
+  width: 300px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.pet-image:hover {
+  box-shadow: 3px 3px 20px #ffb948;
+}
+.container-button-adopt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
