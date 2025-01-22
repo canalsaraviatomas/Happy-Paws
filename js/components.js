@@ -1,3 +1,11 @@
+export function loadPet() {
+  return `
+    <img src="./assets/images/dog-1.jpg" alt="pet" />
+    <p class="name-pet">Name</p>
+    <p> 2 year old <br> Male </p>
+    `;
+}
+
 export function loadNav() {
   return `
     <ul>
