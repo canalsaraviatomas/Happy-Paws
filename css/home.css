@@ -9,9 +9,6 @@
   border-radius: 50%;
   object-fit: cover;
 }
-.pet-image:hover {
-  box-shadow: 3px 3px 20px #ffb948;
-}
 .container-button-adopt {
   display: flex;
   justify-content: center;

@@ -1,33 +1,32 @@
 .information-section {
   background-color: #feefd8;
+  width: 50rem;
+  text-align: left;
   margin: 0 auto;
   margin-top: 9rem;
   margin-bottom: 4.2rem;
-  width: 55%;
-  height: 450px;
+  padding: 2rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  box-shadow: 1px 1px 9px #82817f;
 }
-.information-section > div {
-  text-align: left;
-}
+
 .girl-pet {
-  height: 385px;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
   object-fit: contain;
-}
-.information-section,
-.girl-pet {
   border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .information-section p {
   color: #82817f;
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
+
 h2 {
   font-size: 2.2rem;
-}
-#button-adopt {
-  display: inline-block;
-  margin-top: 7px;
+  color: #333;
 }
