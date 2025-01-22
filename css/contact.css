@@ -63,3 +63,16 @@ textarea {
   top: 4rem;
   right: 17rem;
 }
+
+@media (max-width: 768px) {
+  form {
+    padding: 1rem;
+  }
+  #info-name {
+    flex-direction: column;
+  }
+  #cat-grabbing-web {
+    position: static;
+    margin: 0 auto;
+  }
+}

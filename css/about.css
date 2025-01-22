@@ -30,3 +30,15 @@ h2 {
   font-size: 2.2rem;
   color: #333;
 }
+
+@media (max-width: 768px) {
+  .information-section {
+    flex-direction: column;
+    width: 90%;
+    padding: 1rem;
+  }
+  .girl-pet {
+    width: 83%;
+    max-width: none;
+  }
+}

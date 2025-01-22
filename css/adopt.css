@@ -104,3 +104,25 @@
   padding: 5px;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  #pet-container {
+    width: 80%;
+    padding: 1rem;
+  }
+  .pet {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .modal-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .modal-content img {
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+  .modal-content .text-content {
+    max-width: 100%;
+  }
+}
